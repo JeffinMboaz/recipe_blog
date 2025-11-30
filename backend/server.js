@@ -20,9 +20,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
     origin: [
-      "http://localhost:5173",                // local development
-   // deployed frontend
-    ], // match your React dev server
+      "http://localhost:5173",  
+       "https://recipe-blog-gules-two.vercel.app/"
+    ],       // local development
+   // deployed frontend // match your React dev server
     credentials: true, // REQUIRED to allow cookies
   })
 );
