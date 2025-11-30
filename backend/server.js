@@ -21,7 +21,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",  
-       "https://recipe-blog-gules-two.vercel.app"
+       "https://recipe-blog-gules-two.vercel.app",
+        "https://recipe-blog-7m954wkv1-jeffin-ms-projects.vercel.app",
     ],       // local development
    // deployed frontend // match your React dev server
     credentials: true, // REQUIRED to allow cookies
